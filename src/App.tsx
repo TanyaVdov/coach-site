@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className='app'>
+      <Header />
+        <div className='content'>
+            <Main />
+        </div>
+
 
     </div>
   );

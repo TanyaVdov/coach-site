@@ -1,7 +1,8 @@
 import React, {Suspense} from 'react';
-import './App.css';
 import {BrowserRouter} from "react-router-dom";
 
+import './App.css';
+import './utils/i18next';
 import Header from "./components/header/Header";
 import Routing from "./utils/Routing";
 
@@ -10,7 +11,7 @@ const App = () => {
     return (
 
         <BrowserRouter>
-            <Suspense fallback="loading">
+            <Suspense fallback='loader'>
                 <div className='app'>
 
                     <div className='app_fixed'>

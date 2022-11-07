@@ -14,15 +14,16 @@ const Main = () => {
             </div>
 
             <div className='main_content'>
-                <h1>{t('main.title')}</h1>
-                <p>{t('main.description_1')}</p>
+                <h1>{t('main-part.title')}</h1>
+                <p>{t('main-part.desc1')}</p>
 
                 <div className='repeat_button'>
                     <button>Free...</button>
                 </div>
 
-                <p>{t('main.description_2')}</p>
+                <p>{t('main-part.desc2')}</p>
             </div>
+
 
         </div>
     );

@@ -1,18 +1,21 @@
-import React from "react";
 import Navbar from "./navbar/Navbar";
 import Lang from "./lang/Lang";
+import {Row, Col} from "react-bootstrap";
+import s from './header.module.scss';
 
 const Header = () => {
     return (
-        <div>
-            <p>Header</p>
-            <div className='navbar'>
-                <Navbar />
-            </div>
-            <div className='lang'>
-                <Lang />
-            </div>
-        </div>
+            <Row className={s.header}>
+                <Col lg={8}>
+                    <Navbar/>
+                </Col>
+
+                <Col lg={2} />
+
+                <Col lg={2}>
+                    <Lang/>
+                </Col>
+            </Row>
     );
 };
 

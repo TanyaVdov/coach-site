@@ -1,31 +1,46 @@
 import React from "react";
 import '../../utils/i18next';
+import s from './main.module.scss';
+import img from '../../assets/photo/title.jpg';
+
 import {useTranslation} from 'react-i18next';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Main = () => {
 
     const {t} = useTranslation();
 
     return (
-        <div className='main'>
+        <Row className={s.row}>
 
-            <div className='main_photo'>
+            <Col lg={4} className={s.imgCol}>
+                <img className={s.img}
+                     src={img}
+                     alt='img-title'
+                />
+            </Col>
 
-            </div>
+            <Col lg={8} className={s.contentCol}>
+                <div className={s.content}>
 
-            <div className='main_content'>
-                <h1>{t('main-part.title')}</h1>
-                <p>{t('main-part.desc1')}</p>
+                    <div className={s.title}>
+                        <h1>{t('main.title')}</h1>
+                        <p>{t('main.desc1')}</p>
+                    </div>
 
-                <div className='repeat_button'>
-                    <button>Free...</button>
+                    <div>
+                        <button>Free...</button>
+                    </div>
+
+                    <div className={s.desc}>
+                        <p>{t('main.desc2')}</p>
+                    </div>
+
                 </div>
+            </Col>
 
-                <p>{t('main-part.desc2')}</p>
-            </div>
-
-
-        </div>
+        </Row>
     );
 };
 

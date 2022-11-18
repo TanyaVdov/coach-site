@@ -1,4 +1,13 @@
 {
+  "button" : "Free",
+
+  "header": {
+    "main": "Main",
+    "about": "About",
+    "result": "Results",
+    "contact" : "Contacts"
+  },
+
   "main": {
     "title": "Online personal coach",
     "desc1": "We will build your body “remotely“ and save the result forever!",

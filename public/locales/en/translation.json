@@ -10,7 +10,7 @@
 
   "main": {
     "title": "Online personal coach",
-    "desc1": "We will build your body “remotely“ and save the result forever!",
-    "desc2": "The first online meeting will be held by the trainer in person, regardless of your decision to continue your studies"
+    "subtitle": "We will build your body “remotely“ and save the result forever!",
+    "description": "The first online meeting will be held by the trainer in person, regardless of your decision to continue your studies"
   }
 }

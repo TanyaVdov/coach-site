@@ -1,5 +1,5 @@
 .row {
-
+  background: linear-gradient(90deg, #000000 33%, #F0EFFE);
 }
 
 .imgCol {
@@ -7,20 +7,40 @@
 }
 
 .img {
-  padding: 0;
   height: auto;
   width: 100%;
 }
 
 .contentCol {
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .content {
-  border: 1px solid green;
+  color: white;
+}
+
+.title {
+  font-family: Monsterrat;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+
+  h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  p {
+  }
+}
+
+.button {
+  margin: 50px 0 50px 0;
+}
+
+.description {
 
 }
 

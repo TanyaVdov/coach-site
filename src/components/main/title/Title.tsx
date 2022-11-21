@@ -14,14 +14,14 @@ const Title = () => {
     return (
         <Row className={s.row}>
 
-            <Col md lg={4} className={s.imgCol}>
+            <Col md lg={5} className={s.colImg}>
                 <img className={s.img}
                      src={img}
                      alt='img-title'
                 />
             </Col>
 
-            <Col md lg={6} className={s.contentCol}>
+            <Col md lg={6} className={s.colContent}>
 
                 <div className={s.content}>
 
@@ -41,7 +41,7 @@ const Title = () => {
                 </div>
             </Col>
 
-            <Col md lg={2} />
+            <Col md lg={1} />
 
         </Row>
     );

@@ -1,46 +1,54 @@
+@import '../../../utils/_base.scss';
+
 .row {
-  background: linear-gradient(90deg, #000000 33%, #F0EFFE);
+  background: linear-gradient(90deg, black 40%, $beige);
+  height: auto;
 }
 
-.imgCol {
+.colImg {
   padding: 0;
 }
 
 .img {
   height: auto;
   width: 100%;
+  //border:2px solid red;
 }
 
-.contentCol {
+.colContent {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .content {
-  color: white;
+  margin-top: 20%;
 }
 
 .title {
-  font-family: Monsterrat;
+  width: 75%;
   text-align: center;
-  font-weight: bold;
-  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
 
   h1 {
+    color: white;
     font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin-bottom: 5%;
   }
 
   p {
+    @include text(white, bold);
   }
 }
 
 .button {
-  margin: 50px 0 50px 0;
+  margin: 7.5% auto;
 }
 
 .description {
-
+  @include text(white, normal);
 }
 

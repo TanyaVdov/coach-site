@@ -1,4 +1,5 @@
 import React from 'react';
+import s from './main.module.scss';
 import Title from "./title/Title";
 import Goal from "./goal/Goal";
 import Resume from "./resume/Resume";
@@ -9,7 +10,7 @@ import Footer from "../footer/Footer";
 const Main = () => {
 
     return (
-        <div>
+        <div className={s.main}>
             <Title />
             <Goal />
             <Resume />

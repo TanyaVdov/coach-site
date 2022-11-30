@@ -1,3 +1,8 @@
-.header {
-  align-items: center;
+@import '../../utils/_base.scss';
+
+.row {
+ position: fixed;
+ width: 100%;
+ margin: 0;
+ background: linear-gradient(90deg, black 40%, $beige);
 }

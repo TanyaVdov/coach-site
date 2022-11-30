@@ -1,4 +1,12 @@
+@import '../../../utils/_base.scss';
+
 .navbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.navItem {
+  text-decoration: none;
+  @include text(white, bold);
 }

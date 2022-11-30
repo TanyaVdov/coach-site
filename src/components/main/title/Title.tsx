@@ -1,4 +1,3 @@
-import React from "react";
 import '../../../utils/i18next';
 import s from './title.module.scss';
 import img from '../../../assets/photo/title.jpg';
@@ -14,14 +13,15 @@ const Title = () => {
     return (
         <Row className={s.row}>
 
-            <Col md lg={5} className={s.colImg}>
+            <Col lg={4} className={s.colImg}>
+
                 <img className={s.img}
                      src={img}
                      alt='img-title'
                 />
             </Col>
 
-            <Col md lg={6} className={s.colContent}>
+            <Col lg={6} className={s.colContent}>
 
                 <div className={s.content}>
 
@@ -41,7 +41,7 @@ const Title = () => {
                 </div>
             </Col>
 
-            <Col md lg={1} />
+            <Col lg={2}></Col>
 
         </Row>
     );

@@ -9,10 +9,10 @@ import Container from "react-bootstrap/Container";
 
 const App = () => {
     return (
+        <Container className='container'>
+            <BrowserRouter>
+                <Suspense fallback='loader'>
 
-        <BrowserRouter>
-            <Suspense fallback='loader'>
-                <Container className='container'>
                     <div className='app'>
 
                         <div className='fixed'>
@@ -24,11 +24,10 @@ const App = () => {
                         </div>
 
                     </div>
-                </Container>
-            </Suspense>
-        </BrowserRouter>
-    )
-        ;
+                </Suspense>
+            </BrowserRouter>
+        </Container>
+    );
 }
 
 export default App;

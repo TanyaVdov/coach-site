@@ -3,8 +3,7 @@ import s from './title.module.scss';
 import img from '../../../assets/photo/title.jpg';
 
 import {useTranslation} from 'react-i18next';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Row, Col} from 'react-bootstrap';
 
 const Title = () => {
 

@@ -1,10 +1,40 @@
-import React from "react";
+import '../../../utils/i18next';
+import s from './goal.module.scss';
+
+import {useTranslation} from 'react-i18next';
+import {Row, Col} from 'react-bootstrap';
+import GoalItem from "./GoalItem";
 
 const Goal = () => {
+
+    type GoalItemType = {
+        id : string;
+        text: string;
+        children: JSX.Element|JSX.Element[];
+    }
+
+    const {t} = useTranslation();
+
+    const goalItemAll:Array<GoalItemType> = t('goal.list', {returnObjects: true});
+
     return (
-        <div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dignissimos in minima neque saepe! Alias, consequuntur culpa doloribus ex iure nesciunt, odio omnis praesentium quisquam repudiandae sint velit veritatis voluptas. Minima modi non odio possimus repellendus! Amet, at autem doloribus eos fuga modi quasi rerum. Accusamus architecto atque delectus dignissimos ducimus eos error expedita fugiat, id maxime neque, nulla officia quasi sed, voluptates? Fugiat, quas, sint! A architecto aut commodi, cumque error est expedita illum, ipsa ipsum minima nemo nobis obcaecati quibusdam rem rerum saepe temporibus totam ut! Aliquam, asperiores autem commodi consectetur consequuntur corporis culpa dolore dolores ea, eligendi eum illum impedit ipsam, ipsum labore magnam nam numquam obcaecati odio officiis omnis quae quisquam quos repudiandae saepe tempora tempore. Adipisci architecto at consectetur corporis culpa, cumque deleniti doloremque dolores dolorum ducimus ea eaque enim excepturi in iusto laborum minus, modi molestias nesciunt non numquam, odio officiis perferendis quas quasi quibusdam ratione repellendus sequi similique sit soluta sunt totam ut. Consequuntur dolore in iusto neque officiis provident quae recusandae totam ullam voluptatum. Aliquid animi aspernatur aut delectus dignissimos dolor dolores earum est et ex explicabo id incidunt inventore magnam maiores neque, obcaecati odit officiis praesentium quas quasi qui quia quibusdam sed sint soluta, unde. Cupiditate deserunt doloremque facilis, illo in nisi odio omnis voluptatibus! Amet animi laudantium pariatur quo tempora! Adipisci consectetur cupiditate earum eveniet explicabo fuga incidunt magnam maiores minima mollitia nihil nisi nobis nostrum, perspiciatis provident quod suscipit totam velit vitae, voluptatum? Eum magnam necessitatibus numquam odio, recusandae repudiandae. Accusantium, aliquid asperiores cupiditate, dolore doloribus dolorum enim et eum hic in incidunt ipsum itaque labore laboriosam molestias nisi non officiis possimus quae quam qui quis sed, sint vitae voluptate? Ad fugiat labore pariatur suscipit ut voluptates. Accusamus atque consectetur distinctio eveniet magni, minus nam non pariatur quidem. A cumque, delectus dolores earum eius excepturi facere illum ipsam ipsum iure magni minima minus molestiae, molestias mollitia neque nobis non nostrum numquam odit perferendis porro praesentium provident quaerat, quas quod ratione rem sequi similique sunt ullam ut vitae voluptas? Consectetur culpa cupiditate eligendi ex fugiat harum id iure modi numquam placeat quae quidem repellendus reprehenderit saepe soluta, tempore, temporibus ut velit. Aliquam amet assumenda dignissimos dolore, eum illum inventore maiores mollitia nemo nisi, omnis, pariatur placeat quasi ut vel. Dolores eum nisi odit? Consectetur corporis fugiat, numquam pariatur praesentium quod repudiandae. Animi beatae, culpa cum eos excepturi fuga illo iure laborum laudantium molestias necessitatibus placeat possimus praesentium quaerat quas rerum sit ullam! Aut dicta, dignissimos eveniet hic iste laborum officia provident quibusdam reprehenderit temporibus totam ut vel vitae. Accusamus aliquid autem ea enim hic incidunt labore laboriosam laudantium libero magnam neque nisi, nostrum officiis repudiandae unde? Doloremque ex incidunt laboriosam molestias nihil nulla, omnis voluptatibus. Consectetur delectus dignissimos eius ex exercitationem itaque nobis possimus voluptatibus? Ad consectetur consequatur dignissimos distinctio dolore dolorem dolores ducimus earum exercitationem facilis hic illo impedit iure laudantium nam nihil nobis, non odit pariatur recusandae, sapiente similique ullam. Delectus ex ipsum placeat quos repellendus! A ab animi architecto assumenda autem cupiditate, dolore doloribus ducimus eos error esse eveniet expedita explicabo fugit incidunt inventore ipsum libero necessitatibus obcaecati qui quibusdam sit sunt tempore vel voluptatibus! Animi, consequuntur culpa et fuga maiores non odio officiis pariatur quaerat, recusandae rem totam velit! Asperiores assumenda autem corporis deserunt dicta error incidunt laborum mollitia nobis, praesentium, quaerat, quibusdam quidem similique voluptas voluptatem! A commodi cupiditate dolor, dolorum et ex harum minus nulla quam quasi quis ratione reiciendis repellat sed sit, soluta ullam! Aperiam cupiditate dolorum et explicabo iure repellendus? Asperiores aspernatur culpa eius error, ipsa magnam mollitia neque quas tempore voluptas. Aspernatur culpa ex explicabo fugit labore magni nulla officia omnis placeat voluptatem. Alias autem delectus dignissimos facere mollitia, nesciunt provident quisquam sunt voluptates. Deserunt doloribus earum, eligendi iusto magni natus quod suscipit tempora. Aliquam aspernatur beatae delectus earum eos, error est eum explicabo itaque iusto maiores odio officiis placeat possimus praesentium quae quaerat quibusdam quisquam, quod, rem repellendus sunt voluptatum. Animi culpa fugit in perferendis. Dolore ea eius esse magnam quisquam? Accusantium ad alias, autem consectetur consequatur culpa cumque cupiditate deserunt dignissimos doloribus exercitationem fugit id in ipsam iste iusto magnam molestias nam natus nulla omnis optio porro ratione repellat repudiandae temporibus, vel voluptatum? Aut delectus exercitationem expedita hic illo iste itaque minima nobis nulla perspiciatis praesentium quam quidem, ratione sapiente, sint tempore voluptatem. Eius error ex facere fugiat hic, quidem quos. Aliquam amet animi asperiores at, aut cum delectus ipsa itaque magni nisi, nostrum possimus, provident quia totam voluptatum? Ab architecto aspernatur atque aut commodi, corporis debitis dignissimos distinctio dolor dolores doloribus eaque earum eius est eum explicabo fugiat ipsum libero magnam maxime minus numquam obcaecati officiis omnis optio praesentium quae qui quidem repudiandae sed, sequi sint sit tempora temporibus ut veritatis voluptates. Animi dolor esse ex nisi. Deleniti maxime quia similique. Adipisci animi aperiam assumenda consequatur cum dignissimos dolore dolorem eaque esse impedit incidunt odio, omnis quae ratione reprehenderit temporibus voluptatum. Iure, officia, recusandae? A adipisci corporis culpa debitis dolorem laboriosam modi, optio perspiciatis quae, rerum sint unde velit? Ab aliquid assumenda consectetur cum cupiditate delectus deleniti, dolores ex facilis fuga fugit harum maxime minima nulla odio porro qui rerum, sed totam vel? Ad dignissimos dolor dolorum est modi repellat repellendus tenetur. Adipisci numquam, suscipit. Ad adipisci assumenda consequuntur deleniti earum enim expedita impedit itaque modi mollitia nisi nostrum officia optio quaerat quasi quia repellendus, sapiente, sequi vero voluptates. Doloremque exercitationem fuga inventore non numquam porro reprehenderit ullam voluptate! A architecto asperiores delectus dolore doloribus, eius error est explicabo harum labore minus mollitia numquam qui quibusdam veritatis voluptate voluptatibus? Iusto natus ratione reprehenderit suscipit ut vitae. Accusamus, adipisci animi consectetur, debitis delectus dolores eaque eius enim eos esse et ex fugiat illo itaque iusto laborum laudantium modi necessitatibus nihil obcaecati omnis perferendis placeat quis rem sapiente vel vero voluptas voluptate voluptatem voluptates. Adipisci blanditiis cupiditate debitis doloremque dolorum esse et fugiat in inventore iure minus molestias, nobis perspiciatis provident quibusdam quod reiciendis sequi sit sunt ut vel velit?</p>
-        </div>
+        <Row className={s.row}>
+
+            <Col lg={2} />
+
+            <Col lg={8} className={s.goal}>
+
+                <h2>{t('goal.title')}</h2>
+
+                {goalItemAll.map((item) => {
+                    <GoalItem id={item.id} text={item.text}/>
+                })}
+
+            </Col>
+
+            <Col lg={2} />
+
+        </Row>
     );
 };
 

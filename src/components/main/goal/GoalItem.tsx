@@ -5,17 +5,18 @@ import {useTranslation} from 'react-i18next';
 import React from "react";
 
 export type ItemPropsType = {
-    id: string;
+    img: string;
     text: string;
 }
 
-const GoalItem = ({id, text}: ItemPropsType) => {
+const GoalItem = ({img, text}: ItemPropsType) => {
 
     const {t} = useTranslation();
 
     return (
-        <li className={s.goalItem} key={id}>
+        <li className={s.goalItem} key={img}>
             {t(text)}
+            <img src={require(`../../../assets/icon/goal/${img}.png`)} alt={img}/>
         </li>
     );
 };

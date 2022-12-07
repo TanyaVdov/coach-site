@@ -22,7 +22,7 @@ const Goal = () => {
 
                 <ul>
                 {goalItemAll.map((item:ItemPropsType) => (
-                    <GoalItem id={item.id} text={item.text}/>
+                    <GoalItem text={item.text} img={item.img}/>
                 ))}
                 </ul>
 

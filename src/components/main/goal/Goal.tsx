@@ -3,19 +3,13 @@ import s from './goal.module.scss';
 
 import {useTranslation} from 'react-i18next';
 import {Row, Col} from 'react-bootstrap';
-import GoalItem from "./GoalItem";
+import GoalItem, {ItemPropsType} from "./GoalItem";
 
 const Goal = () => {
 
-    type GoalItemType = {
-        id : string;
-        text: string;
-        children: JSX.Element|JSX.Element[];
-    }
-
     const {t} = useTranslation();
 
-    const goalItemAll:Array<GoalItemType> = t('goal.list', {returnObjects: true});
+    const goalItemAll:ItemPropsType[] = t('goal.list', {returnObjects: true});
 
     return (
         <Row className={s.row}>
@@ -26,9 +20,11 @@ const Goal = () => {
 
                 <h2>{t('goal.title')}</h2>
 
-                {goalItemAll.map((item) => {
+                <ul>
+                {goalItemAll.map((item:ItemPropsType) => (
                     <GoalItem id={item.id} text={item.text}/>
-                })}
+                ))}
+                </ul>
 
             </Col>
 

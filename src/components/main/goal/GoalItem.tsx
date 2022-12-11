@@ -14,10 +14,10 @@ const GoalItem = ({img, text}: ItemPropsType) => {
     const {t} = useTranslation();
 
     return (
-        <li className={s.goalItem} key={img}>
-            {t(text)}
-            <img src={require(`../../../assets/icon/goal/${img}.png`)} alt={img}/>
-        </li>
+            <li className={s.goalItem} key={img}>
+                <div className={s.text}>{t(text)}</div>
+                <img className={s.img} src={require(`../../../assets/icon/goal/${img}.png`)} alt={img}/>
+            </li>
     );
 };
 

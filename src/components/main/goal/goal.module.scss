@@ -4,3 +4,39 @@
   background-color: $beige;
 }
 
+h2 {
+  margin: 5% auto;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  width: 200px;
+  height: 200px;
+}
+
+.goalItem {
+  @include border($green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  display: none;
+}
+

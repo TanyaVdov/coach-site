@@ -15,28 +15,32 @@ h2 {
 
 ul {
   margin-bottom: 5%;
-  display: flex;
-  justify-content: center;
+  //:nth-child(1) {
+  //  height: 400px;
+  //  width: 200px;
+  //}
+  //:nth-child(2) {
+  //  height: 200px;
+  //  width: 400px;
+  //}
+  //:nth-child(3) {
+  //  height: 200px;
+  //  width: 200px;
+  //}
 }
 
 li {
-  width: 200px;
-  height: 200px;
-}
-
-.goalItem {
   @include border($green);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.img {
+img {
   width: 100px;
   height: 100px;
 }
 
 .text {
-  display: none;
-}
 
+}

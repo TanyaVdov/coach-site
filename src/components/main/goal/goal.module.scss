@@ -15,25 +15,52 @@ h2 {
 
 ul {
   margin-bottom: 5%;
-  //:nth-child(1) {
-  //  height: 400px;
-  //  width: 200px;
-  //}
-  //:nth-child(2) {
-  //  height: 200px;
-  //  width: 400px;
-  //}
-  //:nth-child(3) {
-  //  height: 200px;
-  //  width: 200px;
-  //}
+  padding: 0;
+
+  //grid-part
+
+  display: grid;
+  grid-template-row: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0;
+  grid-template-areas:
+  'goal salad salad answer'
+  'goal fail dumbbell dumbbell';
 }
+
+li[id='goal'] {
+  grid-area: goal;
+}
+
+li[id='salad'] {
+  grid-area: salad;
+}
+
+li[id='answer'] {
+  grid-area: answer;
+}
+
+li[id='fail'] {
+  grid-area: fail;
+}
+
+li[id='dumbbell'] {
+  grid-area: dumbbell;
+}
+
+//end of grid-part
 
 li {
   @include border($green);
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.5s ease-out 0s;
+  padding: 5%;
+}
+
+li:hover {
+  background-color: $green;
 }
 
 img {
@@ -42,5 +69,8 @@ img {
 }
 
 .text {
-
+  @include text(black, normal);
+  margin: auto;
+  text-align: center;
+  height: 100px;
 }

@@ -24,13 +24,13 @@ const GoalItem = ({img, text}: ItemPropsType) => {
     }
 
     return (
-        <li className={img}
-            key={img}
+        <li key={img}
+            id={img}
             onMouseEnter={setTextMode}
             onMouseLeave={setImageMode}>
 
             {!itemMode &&
-                <img src={require(`../../../assets/icon/goal/${img}.png`)} alt={img}/>
+                <img className={img} src={require(`../../../assets/icon/goal/${img}.png`)} alt={img}/>
             }
 
             {itemMode &&

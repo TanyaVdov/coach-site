@@ -1,0 +1,76 @@
+@import '../../../utils/_base.scss';
+
+.row {
+  background-color: $beige;
+}
+
+h2 {
+  margin: 5% auto;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  margin-bottom: 5%;
+  padding: 0;
+
+  //grid-part
+
+  display: grid;
+  grid-template-row: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0;
+  grid-template-areas:
+  'goal salad salad answer'
+  'goal fail dumbbell dumbbell';
+}
+
+li[id='goal'] {
+  grid-area: goal;
+}
+
+li[id='salad'] {
+  grid-area: salad;
+}
+
+li[id='answer'] {
+  grid-area: answer;
+}
+
+li[id='fail'] {
+  grid-area: fail;
+}
+
+li[id='dumbbell'] {
+  grid-area: dumbbell;
+}
+
+//end of grid-part
+
+li {
+  @include border($green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease-out 0s;
+  padding: 5%;
+}
+
+li:hover {
+  background-color: $green;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  @include text(black, normal);
+  margin: auto;
+  text-align: center;
+  height: 100px;
+}

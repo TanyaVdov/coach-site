@@ -30,7 +30,7 @@ const GoalItem = ({img, text}: ItemPropsType) => {
             onMouseLeave={setImageMode}>
 
             {!itemMode &&
-                <img className={img} src={require(`../../../assets/icon/goal/${img}.png`)} alt={img}/>
+                <img className={s.image} src={require(`../../../assets/icon/goal/${img}.png`)} alt={img}/>
             }
 
             {itemMode &&

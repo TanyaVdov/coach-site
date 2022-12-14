@@ -1,12 +1,17 @@
 @import '../../../utils/_base.scss';
 
 .navbar {
-  display: flex;
-  align-items: center;
+  @extend %center;
+  @extend %mp;
   justify-content: space-between;
 }
 
 .navItem {
-  text-decoration: none;
   @include text(white, bold);
+  color: white;
+
+  :hover {
+    color: $orange;
+    transition: color 0.5s ease-out 0s;
+  }
 }

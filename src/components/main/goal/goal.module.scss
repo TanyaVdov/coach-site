@@ -1,26 +1,26 @@
 @import '../../../utils/_base.scss';
 
 .row {
+  @extend %row;
   background-color: $beige;
 }
 
+.goal {
+  @extend %mp;
+  margin-bottom: 40px;
+}
+
 h2 {
-  margin: 5% auto;
-  color: black;
-  font-size: 1.5rem;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
+  @include h2(black);
 }
 
 ul {
-  margin-bottom: 5%;
-  padding: 0;
+  @extend %mp;
 
   //grid-part
 
   display: grid;
-  grid-template-row: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0;
   grid-template-areas:
@@ -52,25 +52,22 @@ li[id='dumbbell'] {
 
 li {
   @include border($green);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %center;
   transition: background-color 0.5s ease-out 0s;
-  padding: 5%;
+  padding: 20px;
 }
 
 li:hover {
   background-color: $green;
 }
 
-img {
-  width: 100px;
-  height: 100px;
+.image {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .text {
   @include text(black, normal);
-  margin: auto;
   text-align: center;
-  height: 100px;
+  max-height: 100px;
 }

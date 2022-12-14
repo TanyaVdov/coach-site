@@ -1,8 +1,8 @@
 @import '../../utils/_base.scss';
 
 .row {
+ @extend %row;
+ padding: 5px 20px;
  position: fixed;
- width: 100%;
- margin: 0;
  background: linear-gradient(90deg, black 40%, $beige);
 }

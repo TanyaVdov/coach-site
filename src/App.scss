@@ -1,7 +1,8 @@
 @import '~bootstrap/scss/bootstrap.scss';
+@import 'utils/_normalize.scss';
+@import 'utils/_base.scss';
 
 .container {
-  padding: 0;
-  margin: 0;
   max-width: 100%;
+  @extend %row;
 }

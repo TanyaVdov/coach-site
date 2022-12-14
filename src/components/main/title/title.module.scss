@@ -1,9 +1,9 @@
 @import '../../../utils/_base.scss';
 
 .row {
-  margin: 0;
+  @extend %row;
+  padding: 0;
   background: linear-gradient(90deg, black 40%, $beige);
-  width: 100%;
 }
 
 .colImg {
@@ -16,9 +16,7 @@
 }
 
 .colContent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %center;
 }
 
 .content {
@@ -28,8 +26,7 @@
 .title {
   width: 75%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 
   h1 {
     color: white;
@@ -45,7 +42,7 @@
 }
 
 .button {
-  margin: 7.5% auto;
+  margin: 40px auto;
 }
 
 .description {

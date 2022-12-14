@@ -1,5 +1,5 @@
+@import '../../../utils/_base.scss';
+
 .lang {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %center;
 }

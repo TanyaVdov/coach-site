@@ -38,6 +38,11 @@
     padding: 20px;
     height: 700px;
     @extend %center;
+    transition: background-color 0.5s ease-out 0s;
+}
+
+.colContent:hover {
+    background-color: $orange;
 }
 
 .text1 {
@@ -46,6 +51,7 @@
 
 .text2 {
     @include text(white, normal);
+    margin-top: 20px;
 }
 
 .text3 {

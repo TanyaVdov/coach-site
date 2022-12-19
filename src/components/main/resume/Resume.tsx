@@ -27,8 +27,8 @@ const Resume = () => {
             <Col lg={4} className={s.colImg}>
 
                 <div className={s.name}>
-                    <h2>{t('about.name')}</h2>
-                    <p>{t('about.subname')}</p>
+                    <h2>{t('resume.name')}</h2>
+                    <p>{t('resume.subname')}</p>
                 </div>
             </Col>
 
@@ -40,13 +40,13 @@ const Resume = () => {
                     onMouseLeave={setText12Mode}>
 
                     {!itemMode && 
-                        <p className={s.text1}>{t('about.text1')}
-                            <p className={s.text2}>{t('about.text2')}</p>
+                        <p className={s.text1}>{t('resume.text1')}
+                            <p className={s.text2}>{t('resume.text2')}</p>
                         </p>
                     }
 
                     {itemMode &&
-                    <p className={s.text3}>{t('about.text3')}</p>
+                    <p className={s.text3}>{t('resume.text3')}</p>
                     }
 
                 </div>

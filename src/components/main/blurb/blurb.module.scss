@@ -1,0 +1,9 @@
+@import '../../../utils/_base.scss';
+
+.row {
+    @extend %row;
+    background: url('../../../assets/photo/background.jpeg') no-repeat center top;
+    background-size: cover;
+    height: 800px;
+    padding: 40px 0;
+}

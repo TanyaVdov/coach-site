@@ -1,0 +1,53 @@
+@import '../../../utils/_base.scss';
+
+.row {
+    @extend %row;
+    background-color: $gray;
+    padding: 40px 0px;
+}
+
+.colImg {
+    background: url('../../../assets/photo/resume.jpg') no-repeat center top;
+    background-size: cover;
+    padding: 0;
+    border: 20px solid $l-gray;
+    height: 700px;
+}
+
+.name {
+    background-color: $l-gray;
+    max-height: 120px;
+    height: 100%;
+    position: relative;
+    top: 70%;
+    padding-top: 0.05%;
+
+    h2 {
+        @include h2(white);
+        text-align: left;
+    }
+
+    p {
+        @include text(white, normal);
+        font-size: 1rem;
+    }
+}
+
+.colContent {
+    background-color: $l-gray;
+    padding: 20px;
+    height: 700px;
+    @extend %center;
+}
+
+.text1 {
+    @include text(white, bold);
+}
+
+.text2 {
+    @include text(white, normal);
+}
+
+.text3 {
+    @include text(white, bold);
+}

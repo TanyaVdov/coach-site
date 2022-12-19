@@ -4,6 +4,19 @@
     @extend %row;
     background: url('../../../assets/photo/background.jpeg') no-repeat center top;
     background-size: cover;
-    height: 800px;
-    padding: 40px 0;
+    max-height: 800px;
+}
+
+.blurb {
+    background-color: $beige;
+    opacity: 0.75;
+    @include text(black, normal);
+    margin: 40px 0;
+    padding: 40px;
+}
+
+.text {
+    p {
+        margin-bottom: 20px;
+    }
 }

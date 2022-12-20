@@ -24,7 +24,8 @@ const GoalItem = ({img, text}: ItemPropsType) => {
     }
 
     return (
-        <li key={img}
+        <li className={s.item}
+            key={img}
             id={img}
             onMouseEnter={setTextMode}
             onMouseLeave={setImageMode}>

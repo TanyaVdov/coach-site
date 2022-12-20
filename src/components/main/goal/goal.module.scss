@@ -51,20 +51,20 @@ li[id='dumbbell'] {
 
 //end of grid-part
 
-li {
+.item {
   @include border($green);
   @extend %center;
   transition: background-color 0.5s ease-out 0s;
   padding: 20px;
 }
 
-li:hover {
+.item:hover {
   background-color: $green;
 }
 
 .image {
-  max-width: 100px;
-  max-height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .text {

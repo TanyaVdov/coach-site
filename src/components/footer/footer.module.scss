@@ -1,0 +1,36 @@
+@import '../../utils/_base.scss';
+
+.row {
+    @extend %row;
+    background-color: $blue;
+    max-height: 200px;
+}
+
+.footer {
+    @include text(black, normal);
+    font-size: 1rem;
+
+    ul {
+        margin: 20px 0;
+        display: block;
+
+        li {
+            margin: 10px;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        a {
+            color: black;
+        }
+    }
+}
+
+.time {
+    text-align: center;
+}

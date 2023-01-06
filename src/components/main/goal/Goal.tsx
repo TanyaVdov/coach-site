@@ -20,6 +20,7 @@ const Goal = () => {
             <Col lg={8} className={s.goal}>
 
                 <h2>{t('goal.title')}</h2>
+                <h2>{t('')}</h2>
 
                 <ul>
                 {goalItemAll.map((item:ItemPropsType) => (

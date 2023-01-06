@@ -1,9 +1,10 @@
 import '../../../utils/i18next';
+import {ItemPropsType} from '../../../utils/types';
 import s from './goal.module.scss';
 
 import {useTranslation} from 'react-i18next';
 import {Row, Col} from 'react-bootstrap';
-import GoalItem, {ItemPropsType} from "./GoalItem";
+import GoalItem from "./GoalItem";
 
 const Goal = () => {
 

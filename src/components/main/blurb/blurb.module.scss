@@ -4,7 +4,7 @@
     @extend %row;
     background: url('../../../assets/photo/background.jpeg') no-repeat center top;
     background-size: cover;
-    max-height: 800px;
+    height: 100vh;
 }
 
 .blurb {

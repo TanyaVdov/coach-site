@@ -7,8 +7,10 @@
 }
 
 .navItem {
-  @include text(white, bold);
-  color: white;
+
+  a {
+    @include text(white, bold);
+  }
 
   :hover {
     color: $orange;

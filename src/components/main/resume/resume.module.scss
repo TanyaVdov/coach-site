@@ -2,6 +2,7 @@
 
 .row {
     @extend %row;
+    height: 100vh;
     background-color: $gray;
     padding: 40px 0px;
 }
@@ -11,7 +12,6 @@
     background-size: cover;
     padding: 0;
     border: 20px solid $l-gray;
-    height: 700px;
 }
 
 .name {
@@ -36,7 +36,6 @@
 .colContent {
     background-color: $l-gray;
     padding: 20px;
-    height: 700px;
     @extend %center;
     transition: background-color 0.5s ease-out 0s;
 }

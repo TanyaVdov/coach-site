@@ -1,6 +1,5 @@
 import '../../../utils/i18next';
 import s from './title.module.scss';
-import img from '../../../assets/photo/title.jpg';
 
 import {useTranslation} from 'react-i18next';
 import {Row, Col} from 'react-bootstrap';
@@ -12,13 +11,7 @@ const Title = () => {
     return (
         <Row className={s.row}>
 
-            <Col lg={4} className={s.colImg}>
-
-                <img className={s.img}
-                     src={img}
-                     alt='img-title'
-                />
-            </Col>
+            <Col lg={4} className={s.colImg}/>
 
             <Col lg={6} className={s.colContent}>
 

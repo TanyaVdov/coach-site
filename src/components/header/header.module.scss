@@ -4,5 +4,6 @@
  @extend %row;
  padding: 5px 20px;
  position: fixed;
+ z-index: 1;
  background: linear-gradient(90deg, black 40%, $beige);
 }

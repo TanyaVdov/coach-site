@@ -2,12 +2,15 @@
 
 .row {
   @extend %row;
+  height: 100vh;
   padding: 0;
   background: linear-gradient(90deg, black 40%, $beige);
 }
 
 .colImg {
   padding: 0;
+  background: url('../../../assets/photo/title.jpg') no-repeat center bottom;
+  background-size: cover;
 }
 
 .img {

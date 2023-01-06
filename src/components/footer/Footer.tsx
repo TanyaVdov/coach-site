@@ -1,16 +1,10 @@
-import React from "react";
-// import '../../../utils/i18next';
 import s from './footer.module.scss';
 import location from '../../assets/icon/location.png';
 import telegram from '../../assets/icon/telegram.png';
 import instagram from '../../assets/icon/instagram.png';
-
-// import {useTranslation} from 'react-i18next';
 import {Row, Col} from 'react-bootstrap';
 
 const Footer = () => {
-
-    // const {t} = useTranslation();
 
     return (
         <Row className={s.row}>
@@ -39,7 +33,7 @@ const Footer = () => {
                     </li>
                 </ul>
 
-                <p className={s.time}>{Date()}</p>
+                <p className={s.time}>{(new Date().getFullYear())}</p>
 
             </Col>
 

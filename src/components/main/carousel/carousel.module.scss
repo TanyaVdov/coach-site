@@ -1,0 +1,60 @@
+@import '../../../utils/_base.scss';
+
+.row {
+  @extend %row;
+  background-color: $beige;
+  height: 100hv;
+}
+
+.carousel {
+    @extend %mp;
+}
+
+.buttonDown,
+.buttonUp {
+    width: 400px;
+    height: 70px;
+    @include border($orange);
+}
+
+.buttonDown {
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.buttonUp {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.arrowDown,
+.arrowUp {
+    height: 100%;
+    width: auto;
+}
+
+.arrowUp {
+    rotate:calc(180deg);
+}
+
+.item > {
+    height: 28.6rem;
+    width: 57.2rem;
+
+}
+
+.colContent {
+    width: 50%;
+    @include border($orange);
+}
+
+.colImg {
+    width: 50%;
+    @include border($orange);
+}
+
+.img {
+    width: 100%;
+}

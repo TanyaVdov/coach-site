@@ -7,54 +7,29 @@
 }
 
 .carousel {
-    @extend %mp;
+    margin: 0;
 }
 
 .buttonDown,
 .buttonUp {
-    width: 400px;
+    display: inline-box;
+    width: 100%;
     height: 70px;
     @include border($orange);
 }
 
-.buttonDown {
-    position: relative;
-    bottom: 0;
-    right: 0;
-}
-
-.buttonUp {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
 .arrowDown,
 .arrowUp {
-    height: 100%;
-    width: auto;
+    height: 30px;
+    width: 30px;
 }
 
 .arrowUp {
-    rotate:calc(180deg);
+    transform: rotate(180deg);
 }
 
-.item > {
-    height: 28.6rem;
-    width: 57.2rem;
-
-}
-
-.colContent {
-    width: 50%;
-    @include border($orange);
-}
-
-.colImg {
-    width: 50%;
-    @include border($orange);
-}
-
-.img {
+.content {
+    @extend %mp;
+    height: 28rem;
     width: 100%;
 }

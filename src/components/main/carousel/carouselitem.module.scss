@@ -1,0 +1,23 @@
+@import '../../../utils/_base.scss';
+
+.item {
+    height: 100%;
+    display: flex;
+}
+
+.colContent {
+    width: 50%;
+    overflow: hidden;
+    @include border($orange);
+}
+
+.colImg {
+    width: 50%;
+    overflow: scroll;
+    border-radius: 25px;
+}
+
+.img {
+    height: 400px;
+    width: 400px;
+}

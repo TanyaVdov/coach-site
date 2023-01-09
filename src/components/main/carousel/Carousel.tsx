@@ -15,16 +15,10 @@ const Carousel = () => {
 
     return (
         <Row className={s.row}>
-
+            
             <Col lg={2}/>
 
             <Col lg={8}>
-
-                <ul className={s.carousel}>
-                    {carouselItemAll.map((item:CarouselItemPropsType) => (
-                        <CarouselItem img={item.img} title={item.title} text={item.text}/>
-                    ))}
-                </ul>
 
                 <button 
                 className={s.buttonDown}
@@ -34,6 +28,12 @@ const Carousel = () => {
                     src={arrow} 
                     alt='button down'/>
                 </button>
+
+                <ul className={s.content}>
+                    {carouselItemAll.map((item:CarouselItemPropsType) => (
+                        <CarouselItem img={item.img} title={item.title} text={item.text}/>
+                    ))}
+                </ul>
 
                 <button 
                 className={s.buttonUp}

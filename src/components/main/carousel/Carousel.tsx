@@ -17,17 +17,32 @@ const Carousel = () => {
 
             <Col lg={2} />
 
-            <Col lg={8} className={s.carousel}>
+            <Col lg={8}>
             <CarouselItem>
-                <ul>
+                {/* <ul>
                     {carouselItemAll.map(({img, title, text}:CarouselItemPropsType) => (
                         <li 
-                        className={s.content}
+                        className={s.img}
                         key={img}
                         >
                             <h2>{t(title)}</h2>
                             <ul>{text.map(tex => (
-                                <li>{t(tex)}</li>
+                                <li key={img}>{t(tex)}</li>
+                            ))}
+                            </ul>
+                        </li>
+                    ))}
+                </ul> */}
+
+<ul>
+                    {carouselItemAll.map(({img, title, text}:CarouselItemPropsType) => (
+                        <li 
+                        className={s.img}
+                        key={img}
+                        >
+                            <h2>{t(title)}</h2>
+                            <ul>{text.map(tex => (
+                                <li key={img}>{t(tex)}</li>
                             ))}
                             </ul>
                         </li>

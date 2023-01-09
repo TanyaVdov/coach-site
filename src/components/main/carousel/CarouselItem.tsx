@@ -4,34 +4,35 @@ import s from './carousel.module.scss';
 import arrow from '../../../assets/icon/arrow.png';
 
 // import {useTranslation} from 'react-i18next';
-// import {Children} from 'react';
-import {Col} from 'react-bootstrap';
+import {useState, Children, useEffect, cloneElement} from 'react';
 
 const CarouselItem = ({children}:any) => {
 
-    // const [currentImage, setCurrentImage]= useState([]);
-
     // const {t} = useTranslation();
 
+    const [pages, setPages]= useState([]);
+
+    useEffect(()=> {
+        setPages(
+            Children.map(children,child => {
+                return cloneElement(child,{
+                    style: {
+                        height: '100%',
+                        maxWidth: '25rem',
+                        minWidth: '25rem',
+                    }
+                })
+            })
+        )
+    }, [])
+
     return (
-        <div>
-            <Col lg={4} className={s.colContent}>
-                
-                <button className={s.buttonDown}>
-                    <img className={s.arrowDown} src={arrow} alt='button down'/>
-                </button>
-
-                {children}
-
-            </Col>
-
-            <Col lg={4} className={s.colImg}>
-
-                <button className={s.buttonUp}>
-                    <img className={s.arrowUp} src={arrow} alt='button down'/>
-                </button>
-
-            </Col>
+        <div className={s.carousel}>
+            <div className={s.content}>
+                <div className={s.item}>
+                    
+                </div>
+            </div>
         </div>
     );
 };

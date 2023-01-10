@@ -3,3 +3,52 @@
 .lang {
   @extend %center;
 }
+
+.global {
+  cursor: pointer;
+  fill: none;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.list {
+  @extend %mp;
+  position: fixed;
+  top:3.25rem;
+  transition: all 0.3s;
+  transform: translateX(400%);
+}
+
+.hide {
+  @extend %mp;
+  position: fixed;
+  top:3.25rem;
+  transition: all 0.3s;
+  transform: translateX(0);
+}
+
+.li {
+  display: block;
+  width: 10rem;
+  height: 4.5rem;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+}
+
+.en,
+.ua {
+  width: 100%;
+  height: 2.25rem;
+  background-color: $gray;
+
+  :hover {
+    background-color: $orange;
+    transition: color 0.5s ease-out 0s;
+  }
+}

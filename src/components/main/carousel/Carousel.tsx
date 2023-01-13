@@ -4,33 +4,28 @@ import s from './carousel.module.scss';
 import arrow from '../../../assets/icon/arrow.png';
 
 import {useTranslation} from 'react-i18next';
-import { useEffect, useState } from 'react';
+import {useState } from 'react';
 import {Row, Col} from 'react-bootstrap';
 
 const Carousel = () => {
 
     const {t} = useTranslation();
 
-    const carouselItem:CarouselItemPropsType[] = t('carousel', {returnObjects: true});
+    const carouselItems:CarouselItemPropsType[] = t('carousel', {returnObjects: true});
 
     const [index, setIndex] = useState<number>(0);
 
-    const item = carouselItem[index];
+    const item = carouselItems[index];
+    console.log(item);
 
-    const handlerClick = (i:number) => {
-        setIndex(index => index + i);
+    const handlerClick = (diff:number) => {
+        let newIndex = index + diff;
+        
+        if (newIndex < 0) newIndex = carouselItems.length-1;
+        else if (newIndex > carouselItems.length-1) newIndex = 0;
+
+        setIndex(newIndex);
     }
-
-    useEffect (() => {
-
-        if (index < 0) {
-            setIndex(carouselItem.length-1);
-        }
-
-        else if (index > carouselItem.length-1) {
-            setIndex(0);
-        }
-    }, [index, carouselItem.length])
 
     return (
         <Row className={s.row}>

@@ -1,17 +1,17 @@
 import '../../../utils/i18next';
-import {CarouselItemPropsType} from '../../../utils/types';
+import {CarouselItemProps} from '../../../utils/types';
 import s from './carousel.module.scss';
 import arrow from '../../../assets/icon/arrow.png';
 
 import {useTranslation} from 'react-i18next';
-import {useState } from 'react';
+import {useState} from 'react';
 import {Row, Col} from 'react-bootstrap';
 
 const Carousel = () => {
 
     const {t} = useTranslation();
 
-    const carouselItems:CarouselItemPropsType[] = t('carousel', {returnObjects: true});
+    const carouselItems:CarouselItemProps[] = t('carousel', {returnObjects: true});
 
     const [index, setIndex] = useState<number>(0);
 
@@ -33,7 +33,6 @@ const Carousel = () => {
             <Col lg={2}/>
 
             <Col lg={8} className={s.container}>
-
                 <button 
                     className={s.buttonDown}
                     onClick={() => handlerClick(1)}>
@@ -41,21 +40,19 @@ const Carousel = () => {
                 </button>
 
                 <div className={s.content}>
-                
                     <div className={s.colContent}>
-                        <h2>{t(item.title)}</h2>
-                        <ul>
+                        <h2>{item.title}</h2>
+                        <ul className={s.ul}>
                             {item.text.map((li:string) =>
-                            (<li key={li}>{t(li)}</li>))}
+                            (<li key={li}>{li}</li>))}
                         </ul>
                     </div>
                
                     <div className={s.colImg}>
                         <img className={s.img} 
-                        src={require(`../../../assets/photo/results/${item.img}.png`)} 
+                        src={`/image/results/${item.img}.png`} 
                         alt={item.img}/>
                     </div>
-               
                 </div>
 
                 <button 
@@ -63,7 +60,6 @@ const Carousel = () => {
                 onClick={() => handlerClick(-1)}>
                     <img className={s.arrowUp} src={arrow} alt='button up'/>
                 </button>
-
             </Col>
 
             <Col lg={2} />

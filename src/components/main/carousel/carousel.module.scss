@@ -16,7 +16,6 @@
     height: auto;
     display: flex;
     justify-content: center;
-
 }
 
 .colContent {
@@ -27,12 +26,12 @@
     h2 {
         @include h2(black);
     }
-
     ul {
         display: inline;
         li {
             @include text(black, normal);
-            text-decoration: dashed;
+            margin: 5px 25px;
+            list-style-type: disc;
         }
     }
 }

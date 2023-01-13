@@ -1,3 +1,6 @@
+@import '../../utils/_base.scss';
+
 .main {
   width: 100%;
+  @extend %mp;
 }

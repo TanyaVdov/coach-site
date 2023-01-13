@@ -2,16 +2,16 @@
 
 .row {
     @extend %row;
-    height: 100vh;
     background-color: $gray;
     padding: 40px 0px;
 }
 
 .colImg {
-    background: url('../../../assets/photo/resume.jpg') no-repeat center top;
+    background: url('../../../assets/image/resume.jpg') no-repeat center top;
     background-size: cover;
     padding: 0;
     border: 20px solid $l-gray;
+    height: 34rem;
 }
 
 .name {
@@ -38,6 +38,7 @@
     padding: 20px;
     @extend %center;
     transition: background-color 0.5s ease-out 0s;
+    height: 35rem;
 }
 
 .colContent:hover {

@@ -2,7 +2,7 @@
 
 .row {
     @extend %row;
-    background: url('../../../assets/photo/background.jpeg') no-repeat center top;
+    background: url('../../../assets/image/background.jpeg') no-repeat center top;
     background-size: cover;
     height: 100vh;
 }
@@ -13,6 +13,7 @@
     @include text(black, normal);
     margin: 40px 0;
     padding: 40px;
+    height: 42.5rem;
 }
 
 .text {

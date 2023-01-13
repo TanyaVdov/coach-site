@@ -14,18 +14,15 @@ const Resume = () => {
     const setText3Mode = () => {
         setItemMode(true);
     }
-
     const setText12Mode = () => {
         setItemMode(false);
     }
-
+    
     return (
         <Row className={s.row}>
-
             <Col lg={2} />
 
             <Col lg={4} className={s.colImg}>
-
                 <div className={s.name}>
                     <h2>{t('resume.name')}</h2>
                     <p>{t('resume.subname')}</p>
@@ -33,9 +30,7 @@ const Resume = () => {
             </Col>
 
             <Col lg={4} className={s.colContent}>
-                
-                <div 
-                    className={s.content}
+                <div className={s.content}
                     onMouseEnter={setText3Mode}
                     onMouseLeave={setText12Mode}>
 
@@ -44,18 +39,14 @@ const Resume = () => {
                             <p className={s.text2}>{t('resume.text2')}</p>
                         </p>
                     }
-
                     {itemMode &&
                     <p className={s.text3}>{t('resume.text3')}</p>
                     }
-
                 </div>
             </Col>
 
             <Col lg={2} />
-
         </Row>
     );
 };
-
 export default Resume;

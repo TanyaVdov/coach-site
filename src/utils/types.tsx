@@ -1,15 +1,15 @@
-export interface ItemPropsType {
+export interface ItemProps {
     img: string
     text: string
 }
 
-export interface CarouselItemPropsType {
+export interface CarouselItemProps {
     img: string
     title: string
     text: string[]
 }
 
-export interface BigItemPropsType {
+export interface BigItemProps {
     img: string
     title: string
     subtitle: string

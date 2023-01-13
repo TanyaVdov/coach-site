@@ -6,7 +6,6 @@ import s from './header.module.scss';
 const Header = () => {
     return (
             <Row className={s.row}>
-
                 <Col lg={8}>
                     <Navbar/>
                 </Col>
@@ -16,7 +15,6 @@ const Header = () => {
                 <Col lg={2}>
                     <Lang/>
                 </Col>
-
             </Row>
     );
 };

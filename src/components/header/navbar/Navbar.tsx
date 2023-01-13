@@ -8,7 +8,6 @@ const Navbar = () => {
 
     return (
         <div className={s.navbar}>
-
             <div className={s.navItem}>
                 <Link to='/' >{t('header.main')}</Link>
             </div>
@@ -24,7 +23,6 @@ const Navbar = () => {
             <div className={s.navItem}>
                 <Link to='/result' >{t('header.contact')}</Link>
             </div>
-
         </div>
     );
 };

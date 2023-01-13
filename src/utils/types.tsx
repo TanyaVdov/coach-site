@@ -1,7 +1,12 @@
 export interface ItemPropsType {
     img: string
-    title?: string
-    text: string | Array<string>
+    text: string
+}
+
+export interface CarouselItemPropsType {
+    img: string
+    title: string
+    text: string[]
 }
 
 export interface BigItemPropsType {

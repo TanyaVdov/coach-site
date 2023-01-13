@@ -1,0 +1,70 @@
+@import '../../../utils/_base.scss';
+
+.row {
+    @extend %row;
+    background-color: $beige;
+}
+
+.container {
+    padding: 0;
+    margin: 40px 0;
+}
+
+.content {
+    @extend %mp;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.colContent {
+    width: 100%;
+    height: auto;
+    @include border($orange);
+
+    h2 {
+        @include h2(black);
+    }
+
+    ul {
+        display: inline;
+        li {
+            @include text(black, normal);
+            text-decoration: dashed;
+        }
+    }
+}
+
+.colImg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.buttonDown,
+.buttonUp {
+    width: 100%;
+    height: 4rem;
+
+    background-color: $orange;
+    border-radius: 25px;
+}
+
+.arrowDown,
+.arrowUp {
+    height: 30px;
+    width: 30px;
+}
+
+.arrowUp {
+    transform: rotate(180deg);
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+

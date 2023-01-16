@@ -1,0 +1,56 @@
+@import '../../utils/_base.scss';
+
+.row {
+  @extend %row;
+  padding: 3.25rem 0;
+  background-color: $l-gray;
+  height: auto;
+}
+
+.about {
+  display: inline-block;
+}
+
+.item {
+  margin-top: 20px;
+  padding: 20px;
+  @include text(black, normal);
+}
+
+.item[id='Daniil1'] {
+  background-color: $beige;
+}
+
+.item[id='Daniil2'] {
+  background-color: $gray;
+}
+
+.item[id='Daniil3'] {
+  background-color: white;
+}
+
+.title {
+  @extend %center;
+}
+
+.colImg {
+  width: 45%;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.colTitle {
+  width: 55%;
+  margin: 0 20px 0 0;
+  h2 {
+    @include h2(black);
+  }
+
+  h3 {
+    @include text(black, bold);
+  }
+}

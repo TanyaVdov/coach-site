@@ -2,19 +2,19 @@ import '../../utils/i18next';
 import {BigItemProps} from '../../utils/types';
 import s from './results.module.scss';
 
-import {useTranslation} from 'react-i18next';
-
-
 const ResultsItem = ({img, title, subtitle, text1, text2, text3, text4, text5}: BigItemProps) => {
 
-    const {t} = useTranslation();
-
     return (
-        <li className={s.item} key={img}>
+        <li className={s.item} key={img} id={img}>
             <div className={s.title}>
-                {/* <img className={s.image} src={`public/image/results/${img}.png`} alt={img}/> */}
-                <h2>{title}</h2>
-                <p>{subtitle}</p>
+                <div className={s.colImg}>
+                    <img className={s.img} src={`/image/results/${img}.jpg`} alt={img}/>
+                </div>
+                
+                <div className={s.colTitle}>
+                    <h2>{title}</h2>
+                    <h3>{subtitle}</h3>
+                </div>
             </div>
             
             <div className={s.text}>

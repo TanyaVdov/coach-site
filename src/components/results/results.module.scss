@@ -2,5 +2,58 @@
 
 .row {
   @extend %row;
+  padding: 3.25rem 0;
   background-color: $beige;
+  height: auto;
+}
+
+.results {
+  display: inline-block;
+}
+
+.item {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  @include text(black, normal);
+}
+
+.item[id='Artem1'] {
+  background-color: $orange;
+}
+
+.item[id='Tetiana1'] {
+  background-color: $green;
+}
+
+.item[id='Yevgen1'] {
+  background-color: $blue;
+}
+
+.title {
+  @extend %center;
+}
+
+.colImg {
+  width: 45%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.colTitle {
+  width: 55%;
+  margin: 20px 0 0 20px;
+  h2 {
+    @include h2(black);
+  }
+
+  h3 {
+    @include text(black, bold);
+  }
 }

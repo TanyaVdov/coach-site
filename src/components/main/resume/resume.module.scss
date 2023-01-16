@@ -11,19 +11,20 @@
     background-size: cover;
     padding: 0;
     border: 20px solid $l-gray;
-    height: 34rem;
+    min-height: 40rem;
+    height: 100%;
 }
 
 .name {
     background-color: $l-gray;
-    max-height: 120px;
-    height: 100%;
+    height: 6.25rem;
     position: relative;
-    top: 70%;
-    padding-top: 0.05%;
+    top: 25rem;
+    padding-top: 2%;
 
     h2 {
         @include h2(white);
+        margin: 2% 0;
         text-align: left;
     }
 
@@ -38,7 +39,8 @@
     padding: 20px;
     @extend %center;
     transition: background-color 0.5s ease-out 0s;
-    height: 35rem;
+    min-height: 40rem;
+    height: 100%;
 }
 
 .colContent:hover {

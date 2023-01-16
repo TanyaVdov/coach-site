@@ -22,14 +22,14 @@ const Resume = () => {
         <Row className={s.row}>
             <Col lg={2} />
 
-            <Col lg={4} className={s.colImg}>
+            <Col sm={12} md={6} lg={4} className={s.colImg}>
                 <div className={s.name}>
                     <h2>{t('resume.name')}</h2>
                     <p>{t('resume.subname')}</p>
                 </div>
             </Col>
 
-            <Col lg={4} className={s.colContent}>
+            <Col sm={12} md={6} lg={4} className={s.colContent}>
                 <div className={s.content}
                     onMouseEnter={setText3Mode}
                     onMouseLeave={setText12Mode}>

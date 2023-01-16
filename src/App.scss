@@ -6,3 +6,8 @@
   max-width: 100%;
   @extend %row;
 }
+
+.loader {
+  height: 100vh;
+  @extend %center;
+  }

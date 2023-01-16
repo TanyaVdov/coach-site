@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
 
             <div className={s.navItem}>
-                <Link to='/result' >{t('header.contact')}</Link>
+                <Link to='/contacts' >{t('header.contact')}</Link>
             </div>
         </div>
     );

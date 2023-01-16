@@ -4,7 +4,7 @@
     @extend %row;
     background: url('../../../assets/image/background.jpeg') no-repeat center top;
     background-size: cover;
-    height: 100vh;
+    height: auto;
 }
 
 .blurb {
@@ -13,7 +13,7 @@
     @include text(black, normal);
     margin: 40px 0;
     padding: 40px;
-    height: 42.5rem;
+    height: 100%;
 }
 
 .text {

@@ -1,5 +1,6 @@
 import '../../../utils/i18next';
 import s from './title.module.scss';
+import Button from '../../data/button/Button';
 
 import {useTranslation} from 'react-i18next';
 import {Row, Col} from 'react-bootstrap';
@@ -23,7 +24,7 @@ const Title = () => {
                     </div>
 
                     <div className={s.button}>
-                        <button>Free...</button>
+                        <Button/>
                     </div>
 
                     <div className={s.description}>

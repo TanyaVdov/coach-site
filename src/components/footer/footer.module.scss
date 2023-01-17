@@ -2,8 +2,9 @@
 
 .row {
     @extend %row;
+    padding-top: 20px;
     background-color: $blue;
-    max-height: 200px;
+    height: auto;
 }
 
 .footer {

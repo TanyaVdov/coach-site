@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
 
             <div className={s.navItem}>
-                <Link to='/contacts' >{t('header.contact')}</Link>
+                <a href="#footer">{t('header.contact')}</a>
             </div>
         </div>
     );

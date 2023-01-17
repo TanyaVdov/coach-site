@@ -8,9 +8,9 @@ const Modal = ({modal, setModal}:ModalProps) => {
         <div className={s.container} onClick={() => setModal(false)}>
             <div className={s.modal} onClick={(e) => e.stopPropagation()}>
             <div className={s.media}>
-                <a href="https://telegram.org/k/#@LAINED">
+                <a href="https://t.me/LAINED" target="blank">
                     <img src={telegram} alt='telegram'/></a>
-                <a href="https://www.instagram.com/lained1020/">
+                <a href="https://www.instagram.com/lained1020/" target="blank">
                     <img src={instagram} alt='instagram'/></a>
             </div>
             </div>

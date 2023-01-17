@@ -1,1 +1,0 @@
-This site is live at [link here](https://tanyavdov.github.io/coach-site/).

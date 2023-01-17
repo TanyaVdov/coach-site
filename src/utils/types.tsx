@@ -19,3 +19,8 @@ export interface BigItemProps {
     text4: string
     text5: string
 }
+
+export interface ModalProps {
+    modal:boolean;
+    setModal:(e:boolean) => void;
+}

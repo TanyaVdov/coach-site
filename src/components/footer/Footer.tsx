@@ -23,7 +23,7 @@ const Footer = () => {
                             @LAINED</a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/lained1020?igshid=YmMyMTA2M2Y=">
+                        <a href="https://www.instagram.com/lained1020/">
                             <img src={instagram} alt={instagram}/>
                             @lained1020</a>
                     </li>

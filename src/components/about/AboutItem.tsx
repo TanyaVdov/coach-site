@@ -14,7 +14,7 @@ const AboutItem = ({img, title, subtitle, text1, text2, text3, text4, text5}: Bi
                 </div>
 
                 <div className={s.colImg}>
-                    <img className={s.img} src={`/image/about/${img}.jpg`} alt={img}/>
+                    <img className={s.img} src={`image/about/${img}.jpg`} alt={img}/>
                 </div>
             </div>
             

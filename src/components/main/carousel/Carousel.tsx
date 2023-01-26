@@ -50,7 +50,7 @@ const Carousel = () => {
                
                     <div className={s.colImg}>
                         <img className={s.img} 
-                        src={`/image/results/${item.img}.png`} 
+                        src={`image/results/${item.img}.png`} 
                         alt={item.img}/>
                     </div>
                 </div>

@@ -25,7 +25,7 @@ const GoalItem = ({img, text}: ItemProps) => {
             onMouseEnter={setTextMode}
             onMouseLeave={setImageMode}>
             {!itemMode &&
-                <img className={s.image} src={`/image/goal/${img}.png`} alt={img}/>
+                <img className={s.image} src={`image/goal/${img}.png`} alt={img}/>
             }
             {itemMode &&
                 <div className={s.text}>{text}</div>

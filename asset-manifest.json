@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.93fdc6ce.css",
-    "main.js": "/static/js/main.d2372dc3.js",
-    "static/js/787.e65d7e1a.chunk.js": "/static/js/787.e65d7e1a.chunk.js",
-    "static/media/title.jpg": "/static/media/title.33223e65c8c91d6eb85c.jpg",
-    "static/media/resume.jpg": "/static/media/resume.f6661fdce6ec40bc1f5a.jpg",
-    "static/media/background.jpeg": "/static/media/background.5bc434489d51bcf30ef7.jpeg",
-    "static/media/global.png": "/static/media/global.ef333930ca7f3706eb52.png",
-    "static/media/location.png": "/static/media/location.4ba2450b71e973e57b09.png",
-    "static/media/telegram.png": "/static/media/telegram.1b722a57c2ce8ff2980a.png",
-    "static/media/instagram.png": "/static/media/instagram.776d16d0e9daa177afd5.png",
-    "static/media/loader.gif": "/static/media/loader.1a32f552ee5280e2aef9.gif",
-    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "index.html": "/index.html",
-    "main.93fdc6ce.css.map": "/static/css/main.93fdc6ce.css.map",
-    "main.d2372dc3.js.map": "/static/js/main.d2372dc3.js.map",
-    "787.e65d7e1a.chunk.js.map": "/static/js/787.e65d7e1a.chunk.js.map"
+    "main.css": "/coach-site/static/css/main.1063d76c.css",
+    "main.js": "/coach-site/static/js/main.439b15a3.js",
+    "static/js/787.e65d7e1a.chunk.js": "/coach-site/static/js/787.e65d7e1a.chunk.js",
+    "static/media/title.jpg": "/coach-site/static/media/title.33223e65c8c91d6eb85c.jpg",
+    "static/media/resume.jpg": "/coach-site/static/media/resume.f6661fdce6ec40bc1f5a.jpg",
+    "static/media/background.jpeg": "/coach-site/static/media/background.5bc434489d51bcf30ef7.jpeg",
+    "static/media/global.png": "/coach-site/static/media/global.ef333930ca7f3706eb52.png",
+    "static/media/location.png": "/coach-site/static/media/location.4ba2450b71e973e57b09.png",
+    "static/media/telegram.png": "/coach-site/static/media/telegram.1b722a57c2ce8ff2980a.png",
+    "static/media/instagram.png": "/coach-site/static/media/instagram.776d16d0e9daa177afd5.png",
+    "static/media/loader.gif": "/coach-site/static/media/loader.1a32f552ee5280e2aef9.gif",
+    "index.html": "/coach-site/index.html",
+    "static/media/getFetch.cjs": "/coach-site/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.1063d76c.css.map": "/coach-site/static/css/main.1063d76c.css.map",
+    "main.439b15a3.js.map": "/coach-site/static/js/main.439b15a3.js.map",
+    "787.e65d7e1a.chunk.js.map": "/coach-site/static/js/787.e65d7e1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93fdc6ce.css",
-    "static/js/main.d2372dc3.js"
+    "static/css/main.1063d76c.css",
+    "static/js/main.439b15a3.js"
   ]
 }

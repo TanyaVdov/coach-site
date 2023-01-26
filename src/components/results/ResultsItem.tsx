@@ -8,7 +8,7 @@ const ResultsItem = ({img, title, subtitle, text1, text2, text3, text4, text5}: 
         <li className={s.item} key={img} id={img}>
             <div className={s.title}>
                 <div className={s.colImg}>
-                    <img className={s.img} src={`/image/results/${img}.jpg`} alt={img}/>
+                    <img className={s.img} src={`image/results/${img}.jpg`} alt={img}/>
                 </div>
                 
                 <div className={s.colTitle}>

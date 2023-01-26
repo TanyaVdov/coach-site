@@ -5,13 +5,15 @@ import './App.scss';
 import './utils/i18next';
 import loader from "./assets/loader.gif";
 import Header from "./components/header/Header";
+// import Main from "./components/main/Main";
 import Routing from "./utils/Routing";
 import Container from "react-bootstrap/Container";
 
 const App = () => {
+
     return (
         <Container className='container'>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Suspense fallback={
                 <div className='loader'>
                     <img src={loader} alt='loader'/>

@@ -1,0 +1,144 @@
+{
+  "button" : "Free consultation",
+  "header": {
+    "main": "Main",
+    "about": "About",
+    "result": "Results",
+    "contact" : "Contacts"
+  },
+
+  "main": {
+    "title": "Online personal coach",
+    "subtitle": "We will build your body “remotely“ and save the result forever!",
+    "description": "The first online meeting will be held by the trainer in person, regardless of your decision to continue your studies"
+  },
+
+  "goal": {
+    "title" : "Already at the first consultation you will learn:",
+    "list" : [
+      {
+        "img": "goal",
+        "text" : "what goals should be set for yourself"
+      },
+      {
+        "img": "salad",
+        "text": "individual features of nutrition"
+      },
+      {
+        "img": "answer",
+        "text": "answers to your questions"
+      },
+      {
+        "img": "fail",
+        "text": "what hinders achievement"
+      },
+      {
+        "img": "dumbbell",
+        "text": "recommendations for physical activity"
+      }
+    ]
+  },
+
+  "resume": {
+    "name": "Daniil Zaporozhets",
+    "subname": "professional sports instructor and health coach",
+    "text1" : "Two years ago, I almost reached the first degree of obesity. But, taking control of myself, I lost 20 kg in 4 months.",
+    "text2" : "This became the starting point. Now the scope of my work is all about burning fat, the psychology of eating behavior and changing the lifestyle.",
+    "text3" : "My teaching methods consist in a detailed explanation of each step: what, why and how you need to do so that you can achieve your goals."
+  },
+
+  "carousel": [
+    {
+      "img": "Artem",
+      "title": "Result: Artem",
+      "text": ["weight loss", "- 20 kg in six months", "photo #1: 99 kg", "photo #2: 79 kg"]
+    },
+    {
+      "img": "Tetiana",
+      "title": "Result: Tetiana",
+      "text": ["weight loss", "- 15 kg in 4 months", "photo #1: 78 kg", "photo #2: 63 kg"]
+    },
+    {
+      "img": "Yevgen",
+      "title": "Result: Yevgen",
+      "text": ["weight gain", "+ 4 kg in 3 months", "photo #1: 62 kg", "photo #2: 66 kg"]
+    }
+  ],
+
+  "blurb": {
+    "text1": "'Obviously, you should just go to the gym.'",
+    "text2": "'I will read about one of the diets on the Internet.'",
+    "text3": "'I'm going to try my idol/friend's nutrition and training program.'",
+    "text4": "… and other top phrases that did not bring any result or benefit to anyone.",
+
+    "text5": "Because usually, even with a strong desire to change their body for the better, people do not understand the essence, the expediency of certain actions.",
+    "text6": "Therefore, if you want to do something well, do it yourself with a personal trainer. An individual approach allows you to develop the most optimal program just for you.",
+    "text7": "The first free online meeting can be organized by filling out the form or writing to social networks:"
+  },
+
+  "about": [
+    {
+      "img": "Daniil1",
+      "title": "From obesity to personal trainer",
+      "subtitle": "Hello! Have we not met before? After all, I am familiar with your situation.",
+      "text1": "When you looked in the mirror, what looked at you was not the young and cheerful little girl you were just a couple or three years ago?",
+      "text2": "Did the quarantine and the 'remote' add a few extra pounds? And the sedentary work, the constant desire for something tasty and the monotony of life added on top?",
+      "text3": "No, this is not an advertisement for a slimming belt, but the story of MY life.",
+      "text4": "My name is Danilo and I am a personal trainer.",
+      "text5": "Press the contact button if you recognized yourself at the beginning of the story, and let's go together to the lifestyle of YOUR dreams (and the body will catch up)!"
+    },
+    {
+      "img": "Daniil2",
+      "title": "Let's move on to the process of losing weight!",
+      "subtitle": "I'll immediately try to answer the main question: HOW DID IT WORK FOR ME? I must have been lucky.",
+      "text1": "The most fortunate thing is that I immediately treated this as a process that needed to be studied and found the right materials. In an age where there is too much information of questionable quality on the Internet, this is very important.",
+      "text2": "In the beginning, my friends were a big help for me, with whom we created our own weight loss marathon. It is very important to understand that you are not alone (that's why I advise you to lose weight either with friends or with a trainer). So, everyone went to the gym, started working out and watching my diet. This happened for about two months.",
+      "text3": "BUT BAM! COVID happened. And here is the first and main difference: I didn't stop working out. As soon as the gyms were closed, I ordered dumbbells. The cheapest, huge ones, but they allowed me to train at home. Some time before that I convinced my director to put a barbell and bars in the office. So I had access to an indoor facility at the office plus dumbbells at home.",
+      "text4": "Here are the numbers I recorded for the first 9 weeks: 1month-99kg, 2-95, 3-93.8, 4-92.3, 5-90.9, 6-91.1, 7-90.3, 8-89.9, 9-87.8. Then the Covid began, the halls were closed, and I bought myself a scale already at the end of the fourth month. But the first big checkpoint for me was Easter (that is, 3 months from the start of losing weight). Unfortunately, I did not record the weight, but here are such photos. For the last month, I was just dreaming about the moment when exactly 4 months will pass, and what form I will be able to make. It became the 'fix idea', and I threw all my efforts there. The result was not bad.",
+      "text5": "If someone was waiting for some secret secret here, here it is: in 4 months I trained like hell, studied physiology and monitored nutrition. And the global moral is this: circumstances are of no use! You decide for yourself what you need to do under certain conditions. Don't waste it!"
+    },
+    {
+      "img": "Daniil3",
+      "title": "The thought that changed everything.",
+      "subtitle": "Changes are always a long game. And the hardest stage is right at the beginning.",
+      "text1": "So I want to share one thought that helped me not to quit my transformation in the very beginning.",
+      "text2": "So, it was February 1, 2020. 10 days have passed since the beginning of my transformation from 99 kg. I don't think it's worth saying that it was a difficult 10 days. But for the weekend, my friend and I agreed to go to the Palace Sports to watch a basketball match. I had a hangover earlier in the morning and didn't have time to eat anything normal. So I went there hungry. And I remember very well my feelings during the match.",
+      "text3": "Cool game, good atmosphere, all fun, but I'm sitting and just hanging out. Everyone has BEER AND STROLLERS around me. How I wanted to take it. IT'S JUST TIN! I couldn't think about anything else .",
+      "text4": "And there was a conversation in my head: '- Can you go and get yourself a beer and some prams?' '- So.' '- Will you stop at one glass and a pack?' '- No.' '- If not, what will happen in the evening?' '- I'll buy more beer and goodies and eat them all evening.' '- If this happens, will you return to the regime and training tomorrow?' '- No.' '- So these 10 extremely difficult days were wasted?' '- SO!' And then it hit me. I clearly understood that if I give up now, I will not return to my goal in the near future and may never achieve it in my life. And I was not ready for this! Plus, I was very sorry for this path in 10 days.",
+      "text5": "As you can see, this is a story with a happy ending. I achieved that goal. But that's only because I didn't give up at that moment. So here's this thought that saved me: 'If not now, then never !'. Think! If you are faced with this dilemma: you either change NOW or you stay the way you are, FOREVER. What will you choose? Don't waste it!"
+    }
+    ],
+
+    "results": [
+      {
+        "img": "Artem1",
+        "title": "- 17 kg and change of life habits. ARTEM",
+        "subtitle": "I decided to start sharing the stories of people whose transformation I was lucky enough to have a hand in. And the first one will be this wonderful guy - ARTEM.",
+        "text1": "Tyoma is the first person I started working out with. I was interested in doing it because his situation was very similar to the one I went through. Slow weight gain, working in an office, lack of activities , the presence of alcohol. His previous routine for the week was work/home on weekdays, home on weekends, good food and beer.",
+        "text2": "Artem already had experience of training in the gym, but he constantly gave up on this business. Our task was quite ordinary. Lose weight and change some destructive habits to positive ones.",
+        "text3": "We started last summer at 99 kg. This is the photo on the left. In three months, he lost 10 kg. Then he continued to lose a little more. Emphasis was placed on building a constant training regime and a comfortable work/rest schedule with the opportunity to drink /to have a bite, so to speak)",
+        "text4": "As of today, he has already lost more than 17 kg and is preparing to start a period of active ``recruitment'' in order to slightly increase the number of muscles. I constantly emphasize that achieving results is one thing. But to maintain it - this is a completely different and much more difficult thing. I believe that Artyom and I coped with this task.",
+        "text5": "After Artem reached the mark of minus 10 kg, almost a year passed. And Tyoma continues to develop, and not only in the physical aspect. It was together with Artem that we began to implement my personal approach to training, in which the focus is precisely on psychology, regularity and personal awareness. And we made sure that it works. And if you have similar problems that Artem had - write, we will talk and find ways to solve them."
+      },
+      {
+        "img": "Tetiana1",
+        "title": "Today I will tell you about a wonderful girl who got great results! TETIANA.",
+        "subtitle": "So that you understand the order of the numbers: on the left photo, the weight is 78 kg (height 175 cm). This was our initial mark. On the right, it is already 63 kg. That is, during our work (4 months), Tanya lost as much as 15 kg !",
+        "text1": "Tanya's story is familiar to many. The last winter quarantine, working from home and delivering sushi proved her. And so one summer evening she wrote to me with a request for help.",
+        "text2": "So we agreed to work with her. The situation was complicated not only by her love for food and alcohol, but also by 5 aikos, which she managed to smoke during one of our meetings.",
+        "text3": "But the more difficult the path, the more interesting it is! We started working out in August. And our first checkpoint came in September with a weight of 71 kg. Tanya and I agreed that if she lost more weight in a month, than 5 kg, it will fly to rest. It all happened that way.",
+        "text4": "In general, Tanya impressed me with her determination, strength of spirit and desire to achieve results. Sometimes it was difficult, but she coped with everything. And I was very lucky that I was there and helped. And for dessert, we officially finished training somewhere in December. More than half a year has passed. Now Tanya's weight is 62 kg. Although she, like most, ate in the first months of the war. But this is what I try to convey to my wards. You know the basics, you understand the mechanics — the result is with you forever! Tanya's only problem after losing weight is with clothes! Because all the old clothes have become too big)",
+        "text5": "And if you want to achieve the same cool results as Tanya - write to me in direct mail, we will analyze your specific case!"
+      },
+      {
+        "img": "Yevgen1",
+        "title": "Meet me, this is Евгений.",
+        "subtitle": "In short, Zhenya understood the basic things as quickly as possible, implemented them and got results! The request was very simple: gain muscle mass.",
+        "text1": "Input data: weight 62 kg, work at a computer, active only in the form of football once a week and problems with gaining weight.",
+        "text2": "For 3 months of work, we managed to reach a stable weight of about 66. The maximum was higher, but due to the intense heat in the last month, it was difficult to eat the norm (yes, there are people who find it difficult to eat a lot)..",
+        "text3": "So, normal nutrition, proper training and everything - the result is there. And there are arms, back and other parts of the body. The best thing we did was to introduce the habit of training. I realized that we managed it during the last call.",
+        "text4": "Zhenya said that now he has a vacation and he wants to rest. I ask: ``So, are you going to miss training this week?'' ``Of course not! What, I've been working out all this time for nothing?! And one life hack from Zhenya: in order to get used to training, it is necessary that they bring positive emotions. At first, when the body has not adapted, and the whole process is quite difficult, it is generally difficult to receive positive reinforcement from training. Therefore, Zhenya and a friend every p' after the prison, they gathered for kebabs, beer and rings. The brain remembers the addiction: worked out —> rewarded itself with rest. And then it wants to go to work itself.",
+        "text5": "Just don't get confused: friction first, and only then rest) Don't waste it."
+      }
+    ]
+}
